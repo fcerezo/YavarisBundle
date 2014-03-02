@@ -1,5 +1,5 @@
 {
-  "name":         "yavaris/command-bundle",
+  "name":         "yavaris/yavaris-command-bundle",
   "description":  "Symfony 2 console command for Yavaris",
   "homepage":     "https://github.com/fcerezo/YavarisCommandBundle",
   "type":         "symfony-bundle",
