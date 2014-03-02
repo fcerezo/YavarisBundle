@@ -14,10 +14,5 @@
     "require":      {
       "symfony/symfony":  ">=2.3"
 
-    },
-    "autoload":     {
-      "psr-4": { "Yavaris\\YavarisCommandBundle\\": "" }
     }
 }
-
-
