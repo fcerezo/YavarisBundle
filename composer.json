@@ -1,7 +1,7 @@
 {
   "name":         "yavaris/command-bundle",
   "description":  "Symfony 2 console command for Yavaris",
-  "homepage":     "https://github.com/egulias/YavarisCommandBundle.git",
+  "homepage":     "https://github.com/fcerezo/YavarisCommandBundle",
   "type":         "symfony-bundle",
   "keywords":     ["yavaris", "command"],
   "license":      "MIT",
