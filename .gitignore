@@ -25,5 +25,6 @@ $RECYCLE.BIN/
 # Linux
 .*
 !.gitignore
+!.travis.yml
 !.htaccess
 *~
