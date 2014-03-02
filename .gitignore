@@ -1,0 +1,29 @@
+# -- Symfony2 -----------------------------------------
+/vendor/*
+
+# -- Composer -----------------------------------------
+/composer.phar
+
+# -- Editores -----------------------------------------
+
+# phpstorm
+.idea/
+
+# sublimetext
+/*.sublime-project
+*.sublime-workspace
+.ctags
+*.TODO
+
+# -- Sistemas Operativos ------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.*
+!.gitignore
+!.htaccess
+*~
