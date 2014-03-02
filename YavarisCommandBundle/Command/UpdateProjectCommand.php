@@ -1,6 +1,6 @@
 <?php
 
-namespace Yavaris\CommandBundle\Command;
+namespace Yavaris\YavarisCommandBundle\Command;
 
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
