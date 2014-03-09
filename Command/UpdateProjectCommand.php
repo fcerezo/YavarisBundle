@@ -47,22 +47,22 @@ EOF
         $output->writeln("<info>Actualizando el proyecto</info>");
         $progress->start($output, 100);
 
-        exec('app/console doctrine:schema:drop --force');
+        exec('php app/console doctrine:schema:drop --force');
         $progress->advance(15);
 
-        exec('app/console doctrine:schema:create');
+        exec('php app/console doctrine:schema:create');
         $progress->advance(15);
 
-        exec('app/console doctrine:fixtures:load --no-interaction');
+        exec('php app/console doctrine:fixtures:load --no-interaction');
         $progress->advance(20);
 
-        exec('app/console assets:install web --symlink');
+        exec('php app/console assets:install web');
         $progress->advance(15);
-        exec('app/console assetic:dump');
+        exec('php app/console assetic:dump');
         $progress->advance(15);
 
-        exec('app/console cache:clear -env=prod');
-        exec('app/console cache:clear -env=dev');
+        exec('php app/console cache:clear -env=prod');
+        exec('php app/console cache:clear -env=dev');
         $progress->advance(20);
 
         $progress->finish();
